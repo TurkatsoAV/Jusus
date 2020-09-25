@@ -29,7 +29,7 @@ public class User extends Base implements UserDetails {
     private boolean credentialsExpired;
     @Column(name = "ENABLED", nullable = false)
     private boolean isEnabled;
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "USER_ROLES", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles;
 
