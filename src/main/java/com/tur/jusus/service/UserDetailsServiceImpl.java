@@ -1,6 +1,5 @@
 package com.tur.jusus.service;
 
-import com.tur.jusus.entity.User;
 import com.tur.jusus.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
