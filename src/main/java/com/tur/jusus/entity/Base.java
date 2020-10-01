@@ -13,5 +13,5 @@ public abstract class Base {
 
     @Id
     @GeneratedValue
-    private UUID uuid;
+    private UUID id;
 }
