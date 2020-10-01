@@ -18,7 +18,7 @@ public class UserMutation implements GraphQLMutationResolver {
 
     public User writeUser(String login, String password) {
         User user = new User();
-        user.setUuid(UUID.randomUUID());
+        user.setId(UUID.randomUUID());
         user.setUsername(login);
         user.setPassword(passwordEncoder.encode(password));
         user.setAccountExpired(false);
