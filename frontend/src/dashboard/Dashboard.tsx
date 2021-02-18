@@ -1,6 +1,6 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react"
+import "bootstrap/dist/css/bootstrap.min.css"
 
-const Dashboard : React.FC = () => <div>Dashboard</div>;
+const Dashboard: React.FC = () => <div>Dashboard</div>
 
-export default Dashboard;
+export default Dashboard
